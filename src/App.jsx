@@ -2,6 +2,8 @@ import './App.css';
 import Animal from './components/animal';
 import Counter from './components/counter';
 import Greeting from './components/greeting';
+import LoginForm from './components/loginpage';
+import Userlist from './components/user';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Greeting name="Priya" />
       <Counter />
       <Animal />
+      <LoginForm />
+      <Userlist />
     </div>
   );
 }
